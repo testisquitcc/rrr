@@ -1,0 +1,190 @@
+﻿	.mainmenuu {
+	  margin: 7px 0;
+    }
+	
+	/*Фон та відступи для тексту всередині діву*/
+	.mywebsiteheading {
+      padding: 10px;
+      background-image: linear-gradient(to bottom right, black, gray);
+    }
+	/*Позиція, макс ширина*/
+	.main {
+      float: left;
+      max-width: 82%;
+    }
+	
+	/*Колір фону в маїні для параграфу*/
+	main p {
+		background: rgb(125, 134, 134, 0.8);
+	}
+	/*Роблю гарний текс, вцентрі, з тінню, з кольором білого*/
+	.text {
+		top: 10%;
+		transform: translate(50%, -50%);
+		text-transform: uppercase;
+		font-size: 4em;
+		font-family: verdana;
+		font-weight: 700;
+		color: white;
+		text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,1px 4px 1px #919191,1px 5px 1px #919191;
+	}
+	
+	/*Описую менюшку, котра є на кожній сторінці, про "всі права захищені", Де розмістити, виділити її, колір тексту.*/
+	.allright {
+	 clear: both;
+      text-align: center;
+      height: 100px;
+      background-image: linear-gradient(to bottom right, black, gray);
+      vertical-align: middle;
+      line-height: 100px;
+	  color: white;
+	  border-style: outset;
+	}
+	
+	/*Описую fieldset всередині кожного div */
+	div fieldset {
+		border: 3px solid black;
+	    border-radius: 20px;
+		max-width: 300px;
+		margin-right: 100px;
+		margin-top: 10px;
+		margin-left: 40%;
+		background-image: linear-gradient(black, gray);
+	}
+
+	/*Аби було видно підказки в полях, в котрих може вводити значення користувач(де вони є)*/
+	input {
+		color: black;
+	}
+	
+	textarea {
+		color: black;
+	}
+    
+	
+	/*Опис для body*/
+    body {
+      margin: 25px;
+      padding: 0;
+      background-size: contain;
+      background: url(sky.jpg) center center fixed;
+    }
+	
+	
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+	  color: white;
+    }
+
+    .heaad {
+      padding: 2px;
+      background: linear-gradient( grey,white,  grey);
+    }
+
+	/*aside - ширина висота, колір фону, рамка, розташування*/
+    aside {
+      float: right;
+      max-width: 25%x;
+      min-width: 200px;
+      max-height: 200px;
+	  background-image: linear-gradient(to bottom right, black, gray);
+      border: 2px solid white;
+      border-radius: 2px;
+      margin: 80px 0 0 20px;
+    }
+	
+	/*Якщо навести всередині поля асайд на якір, то буде зміна кольору тексту і фону тексту*/
+	aside a:hover {
+		background-image: linear-gradient(gray, white);
+		color: black;
+	}
+  
+    .side-menu li {
+      margin: 7px 0;
+      list-style: none;
+    }
+
+	/*Два параметри нижче, аби було видно, на білому фоні з чого вибирати, на сторінці Питань*/
+	option {
+		color: black;
+	}
+	optgroup {
+		color: black;
+	}
+	
+    li a {
+      text-decoration: none;
+      color: white;
+      padding: 2px;
+    }
+ 
+ 
+    h2 {
+      font-size: 1.8rem;
+      text-decoration: underline;
+      text-align: center;
+      text-shadow: grey 2px 2px;
+    }
+
+    main p {
+      border: 1px solid #999;
+      border-radius: 5px;
+      padding: 6px;
+      margin-right: 20px;
+      color: white;
+    }
+	/*Порожній відступ до-низу. Аби був простір між блоками на визначених сторінках.*/
+	.vidality-prostir-mizh-text{
+		margin-bottom: 160px;
+	}
+	.vidality-prostir-mizh-text-{
+		margin-bottom: 60px;
+	}
+	
+	.funnytext{
+		margin-top: 32%;
+	}
+
+    main p:first-letter {
+    font-size: 140%; 
+    font-size: 1.6rem;
+    }
+
+   
+	p img{
+      float: left;
+      width: 50px;
+      transition: all 3s;
+	}
+
+    .image:hover {
+      transform: scale(1.1);
+    }
+
+	/*Опис поля навігації*/
+    nav {  
+      margin: 0;
+      padding: 1px 0px;
+      background-image: linear-gradient(to bottom right, gray, black);
+      text-align: center;
+    }
+
+	/*Всередині nav якір з параметрами. За межами - не працюватиме.*/ 
+    nav a {
+      padding: 0px 40px; /*Відступ між словами*/
+	  border-right: gray dotted 4px;
+	  border-left: gray dotted 4px;
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+    }
+    /*:hover = активується при наведенні мишкою на поле.*/
+    nav a:hover {
+      background-image: linear-gradient(gray, white);
+	  color: black;
+	  /*Користувач навівся - фон задається, і колір тексту змінюється.*/
+    }
+    
+   
+
+  
